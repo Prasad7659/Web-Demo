@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Surveyors</title>
+    <link rel="stylesheet" href="Survey.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="Header">
+        <div id="Header1" class="Header1">
+            <i id="phone" class="fa fa-phone"></i>
+            <i id="mail" class="fa fa-envelope-square"></i>
+            <strong class="jd" id="jd">jd</strong>
+            <i id="location" class="fa fa-map-marker"></i>
+            <strong class="hyd" id="hyd">Hyderabad</strong>
+        </div>
+        <div id="Header2" class="Header2">
+            <div id="fl" class="fl">
+                <a class="hamburger" onclick="toggleNav()">&#9776;</a>
+                <strong class="contactinfo"><i class="fa fa-phone"></i>  +91-9490278099</strong>
+                <strong class="contactinfomail"><i class="fa fa-envelope-square"></i>  pkrupavara@gmail.com</strong>
+                <strong class="mainhead">Land Surveyors</strong>
+                <strong class="login">Login</strong>
+                <strong class="signup">|</strong>
+                <strong class="signup">Signup</strong>
+            </div>
+        </div>
+    </div>
+    <div id="mySidenav" class="sidenav" style="width: 0;">
+        <a href="#Main">Home</a>
+        <a href="#servicessection">Services</a>
+        <a href="#aboutsection">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testmonials">Testmonials</a>
+        <a href="#contactsection">Contact</a>
+    </div>
+    <div id="Main" class="Main">
+        <div id="homesection" class="homesection">
+            <p class="imageinfo">Experience of 40,945 sites</p>
+            <p class="imageinfosl">Celebrating 20Years</p>
+            <div class="imageinfobutton">
+                <button class="enquire">Enquire Now</button>
+            </div>
+        </div>
+        <section id="servicessection" class="servicessection">
+            <h2>Services</h2>
+            <div id="servicecontainer" class="servicecontainer">
+                <div id="service_card1" class="service_card"></div>
+                    <h4>jhfshfuishuf</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident voluptas nihil ipsum quaerat reprehenderit. Quidem maxime facere corporis quo repellendus eum accusamus tenetur! Sit quae recusandae dolor fuga odit sequi.</p>
+                </div>
+                <div id="service_card2" class="service_card"></div>
+                    <p>jhfshfuishuf</p>
+                </div>
+            </section>
+        </div>
+        <div>
+            <img src="clients.png" alt="clients" class="clients">
+        </div>
+        <div id="aboutsection" class="aboutsection">
+            <h2>About US</h2>
+        </div>
+        <div id="gallery" class="gallery">
+            <h2>Gallery</h2>
+        </div>
+        <div id="testmonials" class="testmonials">
+            <h2>Testmonials</h2>
+        </div>
+        <section id="contactsection" class="contactsection">
+            <h2>Contact Us</h2>
+            <form id="contactForm" class="contact-form" action="https://formspree.io/f/mnnpnlry"
+            method="POST" autocomplete="off">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required placeholder="Enter your last name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="tel" id="mobile" name="mobile" required placeholder="Enter your mobile number" pattern="[0-9]{10}">
+                </div>
+
+                <div class="form-group">
+                    <label for="Message">Message:</label>
+                    <textarea id="Message" name="Message" rows="4" cols="50" placeholder="Service Request"></textarea>
+                </div>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <div id="SideNav" class="SideNav">
+
+    </div>
+    <footer>
+        <p>© 2024 Land Surveyors. All Rights Reserved.</p>
+    </footer>
+    <script src="Survey.js"></script>
+</body>
+</html>
